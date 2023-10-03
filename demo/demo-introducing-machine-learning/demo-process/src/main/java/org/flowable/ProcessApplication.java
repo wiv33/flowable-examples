@@ -122,7 +122,7 @@ public class ProcessApplication {
         connectionFactory.setHost("psawesome.xyz");
         connectionFactory.setUsername("user");
         connectionFactory.setPassword("58c23ZBN5JmZYk36");
-        return connectionFactory;π
+        return connectionFactory;
     }
 
     @Bean
