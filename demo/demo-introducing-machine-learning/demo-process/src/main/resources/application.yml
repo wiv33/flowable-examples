@@ -1,0 +1,15 @@
+liquibase:
+  enabled: false
+management:
+  security:
+    enabled: false
+server:
+  port: 8081
+spring:
+  boot:
+    admin:
+      client:
+        name: Process Application
+      url: http://localhost:8080
+  activemq:
+    in-memory: true

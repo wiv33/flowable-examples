@@ -61,11 +61,11 @@ public class ProcessApplication {
 
     @Bean
     public DataSource dataSource() {
-        
-        String jdbcUrl = "jdbc:mysql://localhost/demo?useSSL=false";
+
+        String jdbcUrl = "jdbc:mysql://psawesome.xyz:53306/xyz?useSSL=false";
         String jdbcDriver = "com.mysql.jdbc.Driver";
-        String jdbcUsername = "flowable";
-        String jdbcPassword = "flowable";
+        String jdbcUsername = "root";
+        String jdbcPassword = "powerful090";
 
         HikariDataSource dataSource = new HikariDataSource();
         dataSource.setJdbcUrl(jdbcUrl);
