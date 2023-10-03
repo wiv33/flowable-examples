@@ -121,8 +121,8 @@ public class ProcessApplication {
         connectionFactory.setPort(55672);
         connectionFactory.setHost("psawesome.xyz");
         connectionFactory.setUsername("user");
-        connectionFactory.setPassword("powerful090");
-        return connectionFactory;
+        connectionFactory.setPassword("58c23ZBN5JmZYk36");
+        return connectionFactory;π
     }
 
     @Bean
