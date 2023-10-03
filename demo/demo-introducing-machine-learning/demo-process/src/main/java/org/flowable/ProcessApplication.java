@@ -118,8 +118,10 @@ public class ProcessApplication {
     @Bean
     public ConnectionFactory connectionFactory() {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory("localhost");
-        connectionFactory.setUsername("guest");
-        connectionFactory.setPassword("guest");
+        connectionFactory.setPort(55672);
+        connectionFactory.setHost("psawesome.xyz");
+        connectionFactory.setUsername("user");
+        connectionFactory.setPassword("powerful090");
         return connectionFactory;
     }
 
